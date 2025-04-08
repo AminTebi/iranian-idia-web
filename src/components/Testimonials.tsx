@@ -29,20 +29,20 @@ const Testimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">آیدیا از زبان کاربران</h2>
+          <h2 className="text-3xl font-bold mb-4 text-idia-800">آیدیا از زبان کاربران</h2>
         </div>
         
         <Carousel className="max-w-4xl mx-auto">
           <CarouselContent>
             {testimonials.map((testimonial, index) => (
               <CarouselItem key={index}>
-                <Card className="border-0 shadow-sm hover:shadow-md transition-shadow duration-300 bg-gradient-to-br from-purple-50 to-indigo-50">
+                <Card className="border-0 shadow-sm hover:shadow-md transition-shadow duration-300 bg-gradient-to-br from-idia-50 to-blue-50">
                   <CardContent className="p-8 text-center">
-                    <p className="text-lg mb-6 text-gray-700 before:content-['\u0022'] after:content-['\u0022'] before:text-4xl before:text-purple-300 before:mr-1 after:text-4xl after:text-purple-300 after:ml-1">
+                    <p className="text-lg mb-6 text-gray-700 before:content-['\u0022'] after:content-['\u0022'] before:text-4xl before:text-idia-400 before:mr-1 after:text-4xl after:text-idia-400 after:ml-1">
                       {testimonial.quote}
                     </p>
                     <div>
-                      <p className="font-semibold text-purple-700">{testimonial.name}</p>
+                      <p className="font-semibold text-idia-600">{testimonial.name}</p>
                       <p className="text-sm text-gray-500">{testimonial.age}، {testimonial.type}</p>
                     </div>
                   </CardContent>
@@ -51,13 +51,13 @@ const Testimonials = () => {
             ))}
           </CarouselContent>
           <div className="flex justify-center gap-2 mt-4">
-            <CarouselPrevious className="relative static transform-none" />
-            <CarouselNext className="relative static transform-none" />
+            <CarouselPrevious className="relative static transform-none border-idia-500 text-idia-600 hover:bg-idia-50" />
+            <CarouselNext className="relative static transform-none border-idia-500 text-idia-600 hover:bg-idia-50" />
           </div>
         </Carousel>
         
         <div className="mt-10 text-center">
-          <Button variant="outline" className="border-purple-600 text-purple-700 hover:bg-purple-50">
+          <Button variant="outline" className="border-idia-500 text-idia-600 hover:bg-idia-50">
             داستان‌های موفقیت بیشتر
           </Button>
         </div>

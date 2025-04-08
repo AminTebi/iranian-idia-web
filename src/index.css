@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +14,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 210 100% 62%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -98,4 +99,13 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Add futuristic styles */
+.futuristic-container {
+  @apply bg-gradient-to-br from-idia-100 to-white rounded-xl p-6 shadow-lg border border-idia-200;
+}
+
+.glass-card {
+  @apply backdrop-blur-sm bg-white/80 border border-white/20 shadow-lg hover:shadow-xl transition-all duration-300;
 }

@@ -10,21 +10,27 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-2xl font-bold mb-4">آیدیا</h3>
+            <div className="flex items-center mb-4">
+              <img 
+                src="/lovable-uploads/ec7635e0-444d-402d-a210-ca7b23a75e0e.png" 
+                alt="آیدیا" 
+                className="h-12 w-auto mr-3"
+              />
+            </div>
             <p className="text-gray-300 mb-4">
               دستیار هوشمند دیابت برای کمک به مدیریت بهتر زندگی روزانه شما.
             </p>
             <div className="flex space-x-4 space-x-reverse">
-              <a href="#" className="hover:text-purple-400 transition-colors">
+              <a href="#" className="hover:text-idia-400 transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="hover:text-purple-400 transition-colors">
+              <a href="#" className="hover:text-idia-400 transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="hover:text-purple-400 transition-colors">
+              <a href="#" className="hover:text-idia-400 transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="hover:text-purple-400 transition-colors">
+              <a href="#" className="hover:text-idia-400 transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -33,21 +39,21 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">لینک‌های اصلی</h3>
             <ul className="space-y-2">
-              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">صفحه اصلی</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">درباره آیدیا</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">ویژگی‌ها</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">داستان‌های موفقیت</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">تماس با ما</a></li>
+              <li><a href="/" className="text-gray-300 hover:text-idia-300 transition-colors">صفحه اصلی</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-idia-300 transition-colors">درباره آیدیا</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-idia-300 transition-colors">ویژگی‌ها</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-idia-300 transition-colors">داستان‌های موفقیت</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-idia-300 transition-colors">تماس با ما</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-xl font-bold mb-4">منابع</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">وبلاگ</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">سوالات متداول</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">راهنمای استفاده</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">منابع آموزشی</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-idia-300 transition-colors">وبلاگ</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-idia-300 transition-colors">سوالات متداول</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-idia-300 transition-colors">راهنمای استفاده</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-idia-300 transition-colors">منابع آموزشی</a></li>
             </ul>
           </div>
           
@@ -57,10 +63,10 @@ const Footer = () => {
               اپلیکیشن آیدیا را برای اندروید و iOS دانلود کنید.
             </p>
             <div className="space-y-3">
-              <Button variant="outline" size="lg" className="w-full border-white text-white hover:bg-white/10">
+              <Button variant="outline" size="lg" className="w-full border-white text-white hover:bg-idia-800/20">
                 Google Play
               </Button>
-              <Button variant="outline" size="lg" className="w-full border-white text-white hover:bg-white/10">
+              <Button variant="outline" size="lg" className="w-full border-white text-white hover:bg-idia-800/20">
                 App Store
               </Button>
             </div>
