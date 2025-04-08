@@ -38,7 +38,7 @@ const Testimonials = () => {
               <CarouselItem key={index}>
                 <Card className="border-0 shadow-sm hover:shadow-md transition-shadow duration-300 bg-gradient-to-br from-purple-50 to-indigo-50">
                   <CardContent className="p-8 text-center">
-                    <p className="text-lg mb-6 text-gray-700 before:content-['"'] after:content-['"'] before:text-4xl before:text-purple-300 before:mr-1 after:text-4xl after:text-purple-300 after:ml-1">
+                    <p className="text-lg mb-6 text-gray-700 before:content-['\u0022'] after:content-['\u0022'] before:text-4xl before:text-purple-300 before:mr-1 after:text-4xl after:text-purple-300 after:ml-1">
                       {testimonial.quote}
                     </p>
                     <div>
