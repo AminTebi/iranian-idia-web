@@ -40,7 +40,7 @@ const FeatureCards = () => {
           {features.map((feature, index) => (
             <Card key={index} className="border-0 shadow-sm hover:shadow-md transition-shadow duration-300">
               <CardHeader className="pb-2">
-                <CardTitle className="text-xl text-purple-700">{feature.title}</CardTitle>
+                <CardTitle className="text-xl text-idia-600">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">{feature.description}</p>
@@ -49,7 +49,7 @@ const FeatureCards = () => {
           ))}
         </div>
         <div className="mt-10 text-center">
-          <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
+          <Button size="lg" className="bg-idia-600 hover:bg-idia-700">
             مشاهده تمام ویژگی‌های آیدیا
           </Button>
         </div>

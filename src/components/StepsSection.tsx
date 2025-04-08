@@ -21,7 +21,7 @@ const StepsSection = () => {
   ];
 
   return (
-    <section className="py-16 bg-gradient-to-r from-purple-500 to-indigo-500 text-white">
+    <section className="py-16 bg-gradient-to-r from-idia-600 to-idia-500 text-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">شروع کار با آیدیا آسان است!</h2>
@@ -30,14 +30,14 @@ const StepsSection = () => {
           {steps.map((step, index) => (
             <div key={index} className="relative">
               <div className="flex flex-col items-center text-center">
-                <div className="flex justify-center items-center w-20 h-20 rounded-full bg-purple-700 mb-4">
+                <div className="flex justify-center items-center w-20 h-20 rounded-full bg-idia-700 mb-4">
                   {step.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
                 <p className="text-gray-100">{step.description}</p>
               </div>
               {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-10 right-0 w-full h-0.5 bg-purple-300" style={{ width: "calc(50% - 2rem)", right: "-50%" }}></div>
+                <div className="hidden md:block absolute top-10 right-0 w-full h-0.5 bg-idia-300" style={{ width: "calc(50% - 2rem)", right: "-50%" }}></div>
               )}
             </div>
           ))}

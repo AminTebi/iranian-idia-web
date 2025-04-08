@@ -48,7 +48,7 @@ const BlogPreview = () => {
                 <p className="text-gray-600">{post.summary}</p>
               </CardContent>
               <CardFooter>
-                <Button variant="outline" className="text-purple-700 hover:bg-purple-50">
+                <Button variant="outline" className="text-idia-700 hover:bg-idia-50">
                   ادامه مطلب
                 </Button>
               </CardFooter>
@@ -56,7 +56,7 @@ const BlogPreview = () => {
           ))}
         </div>
         <div className="mt-10 text-center">
-          <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
+          <Button size="lg" className="bg-idia-600 hover:bg-idia-700">
             مشاهده همه مقالات
           </Button>
         </div>
