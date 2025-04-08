@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FeatureGrid from "@/components/FeatureGrid";
 import FeatureCards from "@/components/FeatureCards";
@@ -14,8 +15,11 @@ import { Apple, BarChart3, Droplet, Medal, Syringe } from "lucide-react";
 const Index = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-b from-idia-50 to-white" dir="rtl">
+      {/* Header */}
+      <Header />
+      
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 bg-gradient-to-r from-idia-600 to-idia-400 text-white">
+      <section className="relative py-16 pt-32 md:py-24 md:pt-40 bg-gradient-to-r from-idia-600 to-idia-400 text-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0 text-right">
@@ -50,7 +54,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Feature Grid Section with updated styling */}
+      {/* Feature Grid Section */}
       <FeatureGrid />
 
       {/* Steps Section */}
@@ -60,13 +64,17 @@ const Index = () => {
       <FeatureCards />
 
       {/* Testimonials Section */}
-      <Testimonials />
+      <section id="testimonials">
+        <Testimonials />
+      </section>
 
       {/* Credibility Section */}
       <CredibilitySection />
 
       {/* Blog Preview Section */}
-      <BlogPreview />
+      <section id="blog">
+        <BlogPreview />
+      </section>
 
       {/* Footer */}
       <Footer />
